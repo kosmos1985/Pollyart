@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'Pollyart';
 }
 
-
+// IMAGE SLIDER
   let slides, indicators;
   let prevSlide, nextSlide;
   let currentSlideIndex = 1;
