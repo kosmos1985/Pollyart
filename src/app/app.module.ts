@@ -4,11 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { SliderComponent } from './components/slider/slider.component';
+import { AboutComponent } from './components/about/about.component';
+import { PractisComponent } from './components/practis/practis.component';
+import { LawyersComponent } from './components/lawyers/lawyers.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SliderComponent,
+    AboutComponent,
+    PractisComponent,
+    LawyersComponent
   ],
   imports: [
     BrowserModule,

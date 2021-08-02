@@ -1,0 +1,50 @@
+//CONTENT
+.black{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 450px;
+    margin-top: 7%;
+    font-size: 20px;
+    .title{
+      margin-left: 3%;
+      height: 150px;
+      border-left: 3px solid rgba(255, 230, 10, 0.884);
+      h2{
+        margin-left: 3%;
+        padding-top: 3%;
+      }
+    }  
+    p{
+      font-size: 18px;
+      margin-left: 3%;
+    }
+    .column{
+      column-count: 2;
+      margin-left: 14%;
+      h3{
+        margin-top: 0;
+      }
+      .box{
+        display: flex;
+        width: 350px;
+        img{
+          height: 30px;
+          margin-right: 1%;
+        }
+      }
+      table{
+        padding: 1%;
+        margin: 1%;
+        font-size: 18px;
+        tr{
+          padding: 1%;
+        }
+        td{
+          margin-left:3%;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  
