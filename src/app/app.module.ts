@@ -9,6 +9,9 @@ import { AboutComponent } from './components/about/about.component';
 import { PractisComponent } from './components/practis/practis.component';
 import { LawyersComponent } from './components/lawyers/lawyers.component';
 import { PublicationsComponent } from './components/publications/publications.component';
+import { ClientsComponent } from './components/clients/clients.component';
+import { NavComponent } from './components/nav/nav.component';
+import { FaqComponent } from './components/faq/faq.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { PublicationsComponent } from './components/publications/publications.co
     AboutComponent,
     PractisComponent,
     LawyersComponent,
-    PublicationsComponent
+    PublicationsComponent,
+    ClientsComponent,
+    NavComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,
