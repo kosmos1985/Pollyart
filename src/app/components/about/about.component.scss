@@ -9,23 +9,29 @@
       height: 130px;
       border-left: 3px solid rgba(255, 230, 10, 0.884);
       padding: 2%;
+      margin-left: 5%;
     }  
     p{
       font-size: 18px;
     }
     .column{
       column-count: 2;
-      margin: 3%;
+      margin: 2%;
+      margin-left: 5%;
+      width: 80%;
       h3{
         margin-top: 0;
       }
       table{
         padding: 2%;
-        margin: 5%;
-        font-size: 18px;
+        margin: 2%;
+        font-size: 14px;
         td{
           margin-left:7px;
         }
+      }
+      p{
+        font-size: 14px;
       }
     }
   }

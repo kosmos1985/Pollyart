@@ -3,15 +3,40 @@
     width: 95%;
     height: 450px;
     margin-left: 3%;
-    margin-top: 30%;
+    margin-top: 7%;
     font-size: 20px;
     .title{
       height: 130px;
       border-left: 3px solid rgba(255, 230, 10, 0.884);
       padding: 2%;
+      margin-left: 5%;
     }  
     p{
       font-size: 18px;
     }
-    
+    .lawyers{
+      display: flex;
+      padding: 1%;
+      margin-left: 10%;
+      .lawyer{
+        display:block;
+        margin: 2%;
+        img{
+          width: 180px;
+          height: 240px;
+        }
+        ul{
+          margin: 0;
+          padding: 0;
+          li{
+            list-style: none;
+          }
+          .function{
+            font-size: 14px;
+          }
+        }
+  
+      }
+     
+    }
   }

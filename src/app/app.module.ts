@@ -8,6 +8,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { AboutComponent } from './components/about/about.component';
 import { PractisComponent } from './components/practis/practis.component';
 import { LawyersComponent } from './components/lawyers/lawyers.component';
+import { PublicationsComponent } from './components/publications/publications.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { LawyersComponent } from './components/lawyers/lawyers.component';
     SliderComponent,
     AboutComponent,
     PractisComponent,
-    LawyersComponent
+    LawyersComponent,
+    PublicationsComponent
   ],
   imports: [
     BrowserModule,

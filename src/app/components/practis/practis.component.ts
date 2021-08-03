@@ -13,3 +13,4 @@ export class PractisComponent implements OnInit {
   }
 
 }
+
