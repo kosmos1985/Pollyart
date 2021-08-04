@@ -5,17 +5,20 @@
           We are reguarded as industry leaders in stuning website solutions, focused <br>on delivering unsurpased users experiences
         </p>
       </div>
-     <div class="asked">
-         <ul>
-             <li>What paperwork do I need to complete to file for divorce?</li>
-             <li>How do I change my custody and suport orders?</li>
-             <li>How to make a General Diary?</li>
-             <li>What paperwork do I need to complete to file for divorce?</li>
-             <li>How do I protect a buissnes name?</li>
-             <li>Should I incorporate my buissnes?</li>
-         </ul>
-     </div>
-    
+      <div class="column">
+        <div class="asked">
+            <ul>
+                <li><a routerLink="/divorce" routerLinkActive="active">What paperwork do I need to complete to file for divorce?</a></li>
+                <li><a routerLink="/custody" routerLinkActive="active">How do I change my custody and suport orders?</a></li>
+                <li><a routerLink="/diary" routerLinkActive="active">How to make a General Diary?</a></li>
+                <li><a routerLink="/divorces" routerLinkActive="active">What paperwork do I need to complete to file for many divorces?</a></li>
+                <li><a routerLink="/name" routerLinkActive="active">How do I protect a buissnes name?</a></li>
+                <li><a routerLink="/incorporate" routerLinkActive="active">Should I incorporate my buissnes?</a></li>
+            </ul>
+          <div class="answers">
+                <router-outlet></router-outlet>
+        </div>
+    </div>
   </div>
 
 

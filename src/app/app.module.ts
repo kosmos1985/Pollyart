@@ -12,6 +12,12 @@ import { PublicationsComponent } from './components/publications/publications.co
 import { ClientsComponent } from './components/clients/clients.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FaqComponent } from './components/faq/faq.component';
+import { DivorceComponent } from './components/faq/asked/divorce/divorce.component';
+import { CustodyComponent } from './components/faq/asked/custody/custody.component';
+import { DiaryComponent } from './components/faq/asked/diary/diary.component';
+import { DivorcesComponent } from './components/faq/asked/divorces/divorces.component';
+import { NameComponent } from './components/faq/asked/name/name.component';
+import { IncorporateComponent } from './components/faq/asked/incorporate/incorporate.component';
 
 
 @NgModule({
@@ -24,7 +30,13 @@ import { FaqComponent } from './components/faq/faq.component';
     PublicationsComponent,
     ClientsComponent,
     NavComponent,
-    FaqComponent
+    FaqComponent,
+    DivorceComponent,
+    CustodyComponent,
+    DiaryComponent,
+    DivorcesComponent,
+    NameComponent,
+    IncorporateComponent
   ],
   imports: [
     BrowserModule,
