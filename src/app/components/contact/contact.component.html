@@ -1,0 +1,61 @@
+<div class="white">
+    <div class="title">
+        <h2><a id="contact">Feel free to Contact</a></h2>
+        <p>
+          We are reguarded as industry leaders in stuning website solutions, focused <br>on delivering unsurpased users experiences
+        </p>
+      </div>
+      <div class="column">
+        <div class="contactForm">
+            <form class="col" (ngSubmit)="sendData(formRef)" #formRef="ngForm">
+                  <div class="hook">
+                    <input type="text" class="form-control"  name="name" [(ngModel)]="field_data.name" required minlength="2" #name="ngModel">
+                    <ng-container *ngIf="name.invalid && name.touched">
+                      <div *ngIf="name.errors.required">
+                        <span>Field is required</span>
+                      </div>
+                      <div *ngIf="name.errors.minlength">
+                        <span>Name is so short</span>
+                       </div>
+                    </ng-container>
+                  </div>
+                  <div class="hook">
+                    <input type="email" class="form-control" name="email" [(ngModel)]="field_data.email" email required minlength="7" [pattern]="emailPattern" #email="ngModel">
+                    <ng-container *ngIf="email.invalid && email.touched">
+                      <div *ngIf="email.errors.required">
+                       <span>Field is required</span>
+                      </div>
+                      <div *ngIf="email.errors.email">
+                       <span>Incorrect e-mail address</span>
+                      </div>
+                      <div *ngIf="email.errors.pattern">
+                        <span>Invalid e-mail adress</span>
+                       </div>
+                    </ng-container>
+                  </div>
+                  <div class="hook">
+                    <input type="text" class="form-control" name="tel" tel [(ngModel)]="field_data.tel" required minlength="9" #tel="ngModel">
+                    <ng-container *ngIf="tel.invalid && tel.touched">
+                        <div *ngIf="tel.errors.required">
+                         <span>Field is required</span>
+                        </div>
+                        <div *ngIf="tel.errors.minlength">
+                         <span>Phone number is so short</span>
+                        </div>
+                      </ng-container>
+                  </div>
+                  <div class="hook">
+                    <textarea class="form-control" rows="3"  name="message" [(ngModel)]="field_data.message"></textarea>
+                  </div>
+                <div>
+                  <button type="submit"  [disabled]="formRef.invalid"><b>Send Message</b></button>
+                </div>
+              </form>
+        </div>
+        <div class="map">
+            
+        </div>
+            
+        </div>
+    </div>
+

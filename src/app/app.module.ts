@@ -18,6 +18,8 @@ import { DiaryComponent } from './components/faq/asked/diary/diary.component';
 import { DivorcesComponent } from './components/faq/asked/divorces/divorces.component';
 import { NameComponent } from './components/faq/asked/name/name.component';
 import { IncorporateComponent } from './components/faq/asked/incorporate/incorporate.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -36,12 +38,14 @@ import { IncorporateComponent } from './components/faq/asked/incorporate/incorpo
     DiaryComponent,
     DivorcesComponent,
     NameComponent,
-    IncorporateComponent
+    IncorporateComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
