@@ -1,14 +1,15 @@
-<div class="container">
-  <div class="logo">
-    <p>ADVOCATUS<span>.</span></p>
-  </div>
-  <button>
-    <img src="../assets/icons/eye.svg" alt="dark background"/>
-  </button>
+<div class="container" class="{{ darkTheme ? 'dark' : ''  }}">
   
+    <div class="logo">
+      <p>ADVOCATUS<span>.</span></p>
+    </div>
+    <button (click)="toggleTheme()">
+      <img src="../assets/icons/eye.svg" alt="dark background"/>
+    </button>
+    
      <!-- NAVIGATION -->
-     <app-nav></app-nav>
-      
+     <app-nav></app-nav>  
+
      <app-slider></app-slider>
 
      <!-- CONTENT -->

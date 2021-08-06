@@ -9,11 +9,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Pollyart';
   
+  darkTheme = false;
 
-  // scrollTo(hash: string) {
-  //   // location.hash = "#" + hash;
-  // }
-
+  toggleTheme() {
+    this.darkTheme = !this.darkTheme
+  };
+ 
 }
 
 
