@@ -14,12 +14,12 @@ const routes: Routes = [
   { path: 'divorces', component: DivorcesComponent },
   { path: 'name', component: NameComponent },
   { path: 'incorporate', component: IncorporateComponent },
-  { path: '', redirectTo: 'home', pathMatch: 'full'},
+  { path: '', redirectTo: 'divorce', pathMatch: 'full'},
   { path: '**', redirectTo: 'not-found', pathMatch: 'full'  },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,  { anchorScrolling: 'enabled'})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
