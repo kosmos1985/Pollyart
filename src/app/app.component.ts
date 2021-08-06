@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Subject } from 'rxjs';
 
 
 @Component({
@@ -8,11 +9,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Pollyart';
-  
   darkTheme = false;
 
+  eventsSubject: Subject<void> = new Subject<void>();
+
   toggleTheme() {
-    this.darkTheme = !this.darkTheme
+    this.darkTheme = !this.darkTheme;
+    this.eventsSubject.next();
   };
  
 }

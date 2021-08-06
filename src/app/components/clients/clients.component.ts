@@ -1,13 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Observable, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-clients',
   templateUrl: './clients.component.html',
   styleUrls: ['./clients.component.scss']
 })
-export class ClientsComponent  {
+export class ClientsComponent implements OnInit, OnDestroy {
+	darkTheme = false;
 
-  constructor() { }
+	private eventsSubscription: Subscription;
+  
+	@Input() events: Observable<void>;
+	constructor() { }
+	ngOnInit(): void {
+		this.eventsSubscription = this.events.subscribe(() => this.setDark());
+		
+	  };
+	  setDark() {
+		this.darkTheme = !this.darkTheme
+	  };
+	  ngOnDestroy() {
+		this.eventsSubscription.unsubscribe();
+	  };
 
 }
 // IMAGE CAROUSEL

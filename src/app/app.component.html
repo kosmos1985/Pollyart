@@ -13,12 +13,12 @@
      <app-slider></app-slider>
 
      <!-- CONTENT -->
-     <app-about></app-about> 
-     <app-practis></app-practis>
-     <app-lawyers></app-lawyers>
-     <app-clients></app-clients>
-     <app-publications></app-publications>
-     <app-faq></app-faq>
-     <app-contact></app-contact>
+     <app-about  [events]="eventsSubject.asObservable()"></app-about> 
+     <app-practis [events]="eventsSubject.asObservable()"></app-practis>
+     <app-lawyers [events]="eventsSubject.asObservable()"></app-lawyers>
+     <app-clients [events]="eventsSubject.asObservable()"></app-clients>
+     <app-publications [events]="eventsSubject.asObservable()"></app-publications>
+     <app-faq [events]="eventsSubject.asObservable()"></app-faq>
+     <app-contact [events]="eventsSubject.asObservable()"></app-contact>
  
 </div>
