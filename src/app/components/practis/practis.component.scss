@@ -47,4 +47,16 @@
       }
     }
   }
-  
+  // RESPONSIVE
+  // Extra small devices
+  @media (max-width: 576px) { 
+    .black{
+     display: flex;
+     flex-direction: row;
+     height: 600px;
+    tr{
+      display: flex;
+      flex-direction: column;
+    }
+    }
+  }

@@ -58,3 +58,17 @@
      
     }
   }
+    // RESPONSIVE
+  // Extra small devices
+@media (max-width: 576px) { 
+  .white{
+    height: 1300px;
+   display: flex;
+   flex-direction: row;
+   .publications{
+   display: flex;
+   flex-direction: column;
+   }
+  }
+  
+ }

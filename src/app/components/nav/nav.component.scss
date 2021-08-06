@@ -57,3 +57,11 @@ section {
   nav.stroke ul li a:hover:after {
     width: 100%;
   }
+  // Extra small devices
+  @media (max-width: 576px) { 
+    section{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    }
+  }

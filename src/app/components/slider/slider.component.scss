@@ -1311,3 +1311,12 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
 		display: none;
 	}
 }
+ // RESPONSIVE
+  // Extra small devices
+  @media (max-width: 576px) { 
+	.carousel-sliders{
+	  height: 200px;
+	width: 350px;
+	
+  }
+}

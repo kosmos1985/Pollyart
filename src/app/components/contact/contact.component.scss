@@ -58,3 +58,26 @@
       }
     }
   }
+   // RESPONSIVE
+  // Extra small devices
+@media (max-width: 576px) { 
+  .white{
+    height: 700px;
+   display: flex;
+   flex-direction: row;
+   .column{
+   display: flex;
+   flex-direction: column;
+   }
+   .contactForm{
+    width: 100px;
+   }
+   .hook{
+    width: 100px;
+  }
+  .map{
+    margin-top: 45%;
+  }
+  }
+  
+ }

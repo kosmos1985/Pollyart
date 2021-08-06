@@ -87,6 +87,27 @@
 #slider-nav a.current {
 	border-color: white;
 }
+  // RESPONSIVE
+  // Extra small devices
+  @media (max-width: 576px) { 
+	.black{
+	 display: flex;
+	 flex-direction: column;
+	 height: 600px;
+	 #slider{
+	 display: flex;
+	 flex-direction: column;
+	 width: 450px;
+	 }
+	 #slider-wrapper{
+		width: 100px;
+	 }
+	 #slider-nav{
+		 margin-left:0;
+	 }
+	}
+	
+   }
 
   
   
