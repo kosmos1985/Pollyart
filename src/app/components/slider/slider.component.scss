@@ -1315,8 +1315,10 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
   // Extra small devices
   @media (max-width: 576px) { 
 	.carousel-sliders{
+		margin-left:5%;
+		overflow: hidden;
 	  height: 80%;
-	width: 100%;
+	width: 90%;
 	margin-left: 30%;
   }
 }

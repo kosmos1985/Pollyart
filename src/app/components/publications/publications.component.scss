@@ -74,19 +74,32 @@
    display: flex;
    flex-direction: column;
    margin-left: 25%;
+   .recent{
+    display: flex;
+    flex-direction: column;
+   }
    }
   }
  }
   // Small devices (landscape phones, less than 768px)
 @media (max-width: 768px) {
   .white{
-  height: 1500px;
+  height: 1300px;
   width: 80%;
  .publications{
  display: flex;
  flex-direction: column;
  margin-top: 8%;
  margin-left: 30%;
+ .recent{
+   width: 150px;
+  display: flex;
+  flex-direction: column;
+  img{
+    width: 150px;
+  }
+}
+
  }
 }
 }
@@ -94,11 +107,17 @@
 @media (max-width: 992px) { 
   .white{
   width: 100%;
+  height: 520px;
   .publications{
     display: flex;
     flex-direction: row;
-    margin-left: 5px;
-    width: 80%;
+    margin-left: 2%;
+    .recent{
+      width: 200px;
+    }
+    img{
+      width: 200px;
+    }
     }
 }
 }

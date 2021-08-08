@@ -65,10 +65,11 @@ section {
   // RESPONSIVE
   // Extra small devices
   @media (max-width: 576px) { 
-    section{
+    .stroke{
     width: 350px;
     display: flex;
     flex-direction: column;
+    margin-left: 3%;
     }
   }
  // Small devices (landscape phones, less than 768px)
