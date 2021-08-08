@@ -91,9 +91,9 @@
     color: rgba(255, 230, 10, 0.884);
 }
 
-  // RESPONSIVE
-  // Extra small devices
-  @media (max-width: 576px) { 
+// RESPONSIVE
+// Extra small devices
+@media (max-width: 576px) { 
 	.black{
 	 display: flex;
 	 flex-direction: column;
@@ -112,29 +112,33 @@
 	 }
 	}
 }
-   // Small devices (landscape phones, less than 768px)
-   @media (max-width: 768px) {
-	.black{
-		display: flex;
-		flex-direction: column;
-		height: 600px;
-		width: 100%;
-		#slider{
-		display: flex;
-		flex-direction: column;
-		width: 450px;
-		}
-		#slider-wrapper{
-		   width: 100px;
-		}
-		#slider-nav{
-			margin-left:0;
-		}
-	   }
-  }
+// Small devices (landscape phones, less than 768px)
+ @media (max-width: 768px) {
+.black{
+ display: flex;
+	flex-direction: column;
+	height: 600px;
+	width: 100%;
+	#slider{
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	}
+	#slider-wrapper{
+		width: 100px;
+	}
+	#slider-nav{
+		margin-left:0;
+	}
+	}
+}
 // Medium devices (tablets, less than 992px)
   @media (max-width: 992px) { 
 // It's ok
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1200px) { 
+	//  It's ok
 }
 
   

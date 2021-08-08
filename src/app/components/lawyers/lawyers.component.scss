@@ -76,16 +76,18 @@
 @media (max-width: 992px) { 
   .white{
   width: 100%;
+  .lawyers{
+    width: 80%;
+    .lawyer{
+      margin:1%;
+    }
+  }
 }
 }
-
 
 // Large devices (desktops, less than 1200px)
-// @media (max-width: 1200px) { 
-//   .lawyers{
-//     display:block;
-//     .lawyer{
-//       display:flex;
-//     }
-//   }
-// }
+@media (max-width: 1200px) { 
+  .lawyers{
+    width: 100%; 
+  }
+}

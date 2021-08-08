@@ -98,6 +98,10 @@
 // Medium devices (tablets, less than 992px)
 @media (max-width: 992px) { 
   .white{
-  width: 100%;
+  width: 95%;
 }
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1200px) { 
+	//  It's ok
 }
