@@ -48,31 +48,36 @@
   // Extra small devices
 @media (max-width: 576px) { 
   .white{
-    height: 1300px;
-   display: flex;
-   flex-direction: row;
+    height: 1500px;
+    width: 80%;
    .lawyers{
    display: flex;
    flex-direction: column;
+   margin-left: 30%;
    }
   }
   
  }
 
-// // Small devices (landscape phones, less than 768px)
-// @media (max-width: 768px) {
-//   .lawyer{
-//     display:flex;
-//   }
-// }
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+  .white{
+  height: 1400px;
+  width: 80%;
+ .lawyers{
+ display: flex;
+ flex-direction: column;
+ margin-left: 40%;
+ }
+}
+}
 
-// // Medium devices (tablets, less than 992px)
-// @media (max-width: 992px) { 
-  
-//     .lawyer{
-//      display:flex;
-//     }
-// }
+// Medium devices (tablets, less than 992px)
+@media (max-width: 992px) { 
+  .white{
+  width: 100%;
+}
+}
 
 
 // Large devices (desktops, less than 1200px)

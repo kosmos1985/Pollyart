@@ -41,6 +41,21 @@ button{
 button:hover{
   cursor: pointer;
 }
+ // RESPONSIVE
+  // Extra small devices
+  @media (max-width: 576px) { 
+    
+     .container{
+    
+     display: flex;
+     flex-direction: column;
+     width: 194%;
+     height: 100%;
+     }
+   
+   
+    
+   }
 
 
 

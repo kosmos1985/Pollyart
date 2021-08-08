@@ -1315,8 +1315,21 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
   // Extra small devices
   @media (max-width: 576px) { 
 	.carousel-sliders{
-	  height: 200px;
-	width: 350px;
-	
+	  height: 80%;
+	width: 100%;
+	margin-left: 30%;
   }
 }
+  // Small devices (landscape phones, less than 768px)
+  @media (max-width: 768px) {
+// It's ok
+  }
+  // Medium devices (tablets, less than 992px)
+@media (max-width: 992px) { 
+	.carousel-sliders{
+		height: 100%;
+	  width: 100%;
+	  margin-left: 3%;
+	}
+}
+  

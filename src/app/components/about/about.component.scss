@@ -39,4 +39,42 @@
     background: black;
     color: rgba(255, 230, 10, 0.884);
   }
-  
+   // RESPONSIVE
+  // Extra small devices
+@media (max-width: 576px) { 
+  .white{
+    height: 700px;
+    width: 80%;
+    margin-top: 0;
+   .column{
+   display: flex;
+   flex-direction: column;
+   }
+
+  }
+ }
+ // Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+  .white{
+  height: 700px;
+  width: 80%;
+  margin-top: 53%;
+ .column{
+ display: flex;
+ flex-direction: column;
+ margin-top: 15%;
+ margin-left: 20%;
+ }
+}
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 992px) { 
+  .white{
+  width: 100%;
+  .column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+}
+}

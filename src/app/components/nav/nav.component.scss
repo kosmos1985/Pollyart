@@ -61,6 +61,8 @@ section {
     background: black;
     color: rgba(255, 230, 10, 0.884);
   }
+  
+  // RESPONSIVE
   // Extra small devices
   @media (max-width: 576px) { 
     section{
@@ -69,3 +71,11 @@ section {
     flex-direction: column;
     }
   }
+ // Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+  section{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    } 
+}
